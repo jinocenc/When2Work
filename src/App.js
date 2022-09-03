@@ -4,7 +4,7 @@ import { Button, Spinner } from "@blueprintjs/core"
 
 function App() {
   const mySpinner = <Spinner intent="primary" />;
-  const myButton = <Button intent="primary" loading="true" >Click me!!</Button>
+  const myButton = <Button intent="primary" loading={true} >Click me!!</Button>
   return (
     <div className="App"> .  
       <header className="App-header">
